@@ -19,7 +19,17 @@ public class CalculoImc {
       
       // SAÍDA
       // 4 - Imprime o resultado do IMC
-      System.out.println("Seu IMC é: \n"+ imc);
+      System.out.println("\nSeu IMC é: "+ imc);
+
+    System.out.print("\nTabela IMC:");
+    System.out.print("\n Abaixo do peso     \" Menor que 18,5  \"");
+    System.out.print("\n Peso normal        \"   18,5 a 24,9   \"");
+    System.out.print("\n Sobrepeso          \"   25  a 29,9    \"");
+    System.out.print("\n Obesidade grau I   \"   30  a 34,9    \"");
+    System.out.print("\n Obesidade grau II  \"   35  a 39,9    \"");
+    System.out.print("\n Obesidade grau III \"   40  a 49,9    \"");
+    System.out.print("\n Obesidade grau IV  \"   50  a 59,9    \"");
+    System.out.print("\n Obesidade grau V   \"  Acima de 60    \"");
 
     scanner.close();
     }
